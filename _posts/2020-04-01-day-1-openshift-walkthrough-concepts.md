@@ -24,7 +24,6 @@ oc status
 
 This section tracks the experiments following the [getting started with containers][Getting started with containers].
 
-To be continue...
 
 ## references
 
