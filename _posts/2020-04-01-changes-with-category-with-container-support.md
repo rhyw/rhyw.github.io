@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Significant changes after category is introduced
+title: "Significant changes after category is introduced"
 date: 2020-04-01 22:46
 category: pelc, container
 author: Yuguang Wang
