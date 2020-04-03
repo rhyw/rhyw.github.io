@@ -33,3 +33,5 @@ Perhaps the manpage gives a better brief of what this `podman run` is doing:
     podman run --net=host imageID dnf -y install java
     podman run --volume /var/hostdir:/var/ctrdir -i -t fedora /bin/bash
 
+### Inspecting containers
+###
