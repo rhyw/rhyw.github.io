@@ -23,7 +23,7 @@ summary:
             "port": 8888,
             "protocol": "vmess",
             "settings": {
-            "clients": [{ "id": "b831381d-6324-4d53-ad4f-8cda48b30811" }]
+            "clients": [{ "id": "548d170c-7b25-11ea-9c90-bca8a698e4c3" }]
             }
         }],
         "outbounds": [{
@@ -31,6 +31,8 @@ summary:
             "settings": {}
         }]
         }
+
+Replace the `id` field by generating your own uuid with uuid generation tool.
 
 - Start docker
   
