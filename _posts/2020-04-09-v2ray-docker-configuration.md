@@ -13,20 +13,21 @@ summary:
 - Apply a server under GCP, using minimum configuration and container optimized OS. 
 - Pull image from the official registry:    
 
-        sudo docker pull v2ray/official
+        $ docker pull v2ray/official
 
 - Create `/etc/v2ray/config.json` as below.
 
-        sudo mkdir -p /etc/v2ray/
-        sudo touch /etc/v2ray/config.json
-        sudo vi /etc/v2ray/config.json
+        $ mkdir -p /etc/v2ray
+        $ touch /etc/v2ray/config.json
+        # Obtain a fresh new uuid: uuidgen -rt
+        $ vi /etc/v2ray/config.json
         # Update with below info:
         {
             "inbounds": [{
             "port": 8888,
             "protocol": "vmess",
             "settings": {
-                "clients": [{ "id": "548d170c-7b25-11ea-9c90-bca8a698e4c3" }]
+            "clients": [{ "id": "548d170c-7b25-11ea-9c90-bca8a698e4c3" }]
             }
             }],
             "outbounds": [{
@@ -36,6 +37,8 @@ summary:
         }
 
 Replace the `id` field by generating your own uuid with uuid generation tool.
+
+- Configure allowed port, e.g., 8888 from console. 
 
 - Start docker
   
