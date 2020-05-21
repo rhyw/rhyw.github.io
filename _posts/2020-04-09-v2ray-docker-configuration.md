@@ -17,6 +17,7 @@ summary:
 
 - Create `/etc/v2ray/config.json` as below.
 
+
         $ mkdir -p /etc/v2ray
         $ touch /etc/v2ray/config.json
         # Obtain a fresh new uuid: uuidgen -rt
