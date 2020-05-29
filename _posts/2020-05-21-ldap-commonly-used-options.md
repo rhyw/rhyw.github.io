@@ -12,6 +12,6 @@ summary: A bit on LDAP
 
 ## References
 
-- OpenLDAP admin book: https://www.openldap.org/doc/admin24/guide.html
-- Understanding LDAP: https://www.redbooks.ibm.com/redbooks/pdfs/sg244986.pdf
+- [OpenLDAP admin book](https://www.openldap.org/doc/admin24/guide.html)
+- [Understanding LDAP](https://www.redbooks.ibm.com/redbooks/pdfs/sg244986.pdf)
 
