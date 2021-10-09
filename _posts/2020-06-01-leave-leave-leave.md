@@ -8,5 +8,3 @@ tags: []
 summary: Leave, leave, leave
 ---
 
-
-F**K, I'm going to leave, no compromise!
